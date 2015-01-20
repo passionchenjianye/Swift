@@ -92,7 +92,7 @@
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="lwj-d8-XV4"/>
                                     <barButtonItem systemItem="compose" id="sih-Zh-uia">
                                         <connections>
-                                            <segue destination="WhD-fe-IMO" kind="modal" identifier="showReview" id="gdW-Bp-cVk"/>
+                                            <segue destination="WhD-fe-IMO" kind="modal" identifier="showReview" id="PpM-db-HOf"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="RfQ-5N-2Ue"/>
@@ -118,24 +118,40 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcv-3m-Fnm">
-                                                    <rect key="frame" x="95" y="8" width="215" height="20.5"/>
+                                                    <rect key="frame" x="95" y="8" width="165" height="20.5"/>
                                                     <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="14"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SAJ-2E-HSl">
+                                                    <rect key="frame" x="266" y="8" width="54" height="23.5"/>
+                                                    <color key="backgroundColor" red="1" green="0.21774416269999999" blue="0.16300495819999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <state key="normal" title="Map">
+                                                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="RWe-7W-4Yy" kind="push" identifier="showMap" id="crQ-mU-bJL"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="Jcv-3m-Fnm" firstAttribute="top" secondItem="Qkn-xs-Qeo" secondAttribute="top" constant="8" id="35H-pt-xWa"/>
-                                                <constraint firstAttribute="trailing" secondItem="Jcv-3m-Fnm" secondAttribute="trailing" constant="10" id="5AW-9v-8O7"/>
+                                                <constraint firstAttribute="trailing" secondItem="Jcv-3m-Fnm" secondAttribute="trailing" constant="60" id="5AW-9v-8O7"/>
                                                 <constraint firstAttribute="bottom" secondItem="Jcv-3m-Fnm" secondAttribute="bottom" constant="8" id="6MT-Sy-bwb"/>
+                                                <constraint firstItem="SAJ-2E-HSl" firstAttribute="top" secondItem="Qkn-xs-Qeo" secondAttribute="top" constant="8" id="PKz-10-OyU"/>
+                                                <constraint firstAttribute="trailing" secondItem="SAJ-2E-HSl" secondAttribute="trailing" id="bK3-dQ-b3k"/>
                                                 <constraint firstAttribute="bottom" secondItem="NVW-0c-M2o" secondAttribute="bottom" constant="8" id="gHF-z2-zoj"/>
                                                 <constraint firstItem="NVW-0c-M2o" firstAttribute="top" secondItem="Qkn-xs-Qeo" secondAttribute="top" constant="8" id="ieL-KR-OI4"/>
                                                 <constraint firstItem="Jcv-3m-Fnm" firstAttribute="leading" secondItem="Qkn-xs-Qeo" secondAttribute="leadingMargin" constant="87" id="l38-D1-bfi"/>
+                                                <constraint firstAttribute="bottom" secondItem="SAJ-2E-HSl" secondAttribute="bottom" constant="5" id="mw9-fQ-KQh"/>
                                                 <constraint firstItem="NVW-0c-M2o" firstAttribute="leading" secondItem="Qkn-xs-Qeo" secondAttribute="leadingMargin" constant="9" id="pq8-QA-NPe"/>
+                                                <constraint firstItem="SAJ-2E-HSl" firstAttribute="leading" secondItem="Jcv-3m-Fnm" secondAttribute="trailing" constant="6" id="sca-3V-mAu"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="fieldLabel" destination="NVW-0c-M2o" id="Pqc-cR-Qv8"/>
+                                            <outlet property="mapButton" destination="SAJ-2E-HSl" id="xBP-SL-Pvf"/>
                                             <outlet property="valueLabel" destination="Jcv-3m-Fnm" id="eTj-mX-g0v"/>
                                         </connections>
                                     </tableViewCell>
@@ -180,12 +196,12 @@
                     </view>
                     <navigationItem key="navigationItem" id="eb7-ng-EPT"/>
                     <connections>
-                        <outlet property="mapView" destination="rEc-CH-9cT" id="hnh-gO-vD5"/>
+                        <outlet property="mapView" destination="rEc-CH-9cT" id="P5b-8l-2Xo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q6p-yO-gnU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1456" y="625"/>
+            <point key="canvasLocation" x="1491" y="610"/>
         </scene>
         <!--Review View Controller-->
         <scene sceneID="HLE-12-BgB">

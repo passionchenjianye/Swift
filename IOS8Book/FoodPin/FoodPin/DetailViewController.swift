@@ -48,7 +48,7 @@ class DetailViewController: UIViewController,UITableViewDataSource, UITableViewD
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as DetailTableViewCell
         cell.backgroundColor = UIColor.clearColor()
-//        cell.mapButton.hidden = true
+        cell.mapButton.hidden = true
         switch indexPath.row {
         case 0:
             cell.fieldLabel.text = "Name"
@@ -59,7 +59,7 @@ class DetailViewController: UIViewController,UITableViewDataSource, UITableViewD
         case 2:
             cell.fieldLabel.text = "Location"
             cell.valueLabel.text = restaurant.location
-//            cell.mapButton.hidden = false
+            cell.mapButton.hidden = false
         case 3:
             cell.fieldLabel.text = "Been here"
             cell.valueLabel.text = (restaurant.isVisited) ? "Yes, I`ve been here before" : "No"
@@ -78,8 +78,13 @@ class DetailViewController: UIViewController,UITableViewDataSource, UITableViewD
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "showMap" {
+//            print(segue.identifier)
             let destinationController = segue.destinationViewController as MapViewController
             destinationController.restaurant = restaurant
-        }
+//            print(destinationController)
+        } /*else if segue.identifier == "showReview" {
+            let destinationController = segue.destinationViewController as ReviewViewController
+
+        }*/
     }
 }
