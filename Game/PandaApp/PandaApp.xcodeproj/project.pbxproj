@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA282B461A7675D8008527F5 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA282B451A7675D8008527F5 /* Platform.swift */; };
+		EA282B481A767763008527F5 /* PlatformFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA282B471A767763008527F5 /* PlatformFactory.swift */; };
+		EA282B4C1A7686CD008527F5 /* background_f0.png in Resources */ = {isa = PBXBuildFile; fileRef = EA282B4A1A7686CD008527F5 /* background_f0.png */; };
+		EA282B4D1A7686CD008527F5 /* background_f1.png in Resources */ = {isa = PBXBuildFile; fileRef = EA282B4B1A7686CD008527F5 /* background_f1.png */; };
+		EA282B4F1A7686EA008527F5 /* BackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA282B4E1A7686EA008527F5 /* BackGround.swift */; };
+		EA282B511A768B76008527F5 /* BitMaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA282B501A768B76008527F5 /* BitMaskType.swift */; };
+		EA8730C11A715BF80028B6E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8730C01A715BF80028B6E9 /* AppDelegate.swift */; };
+		EA8730C31A715BF80028B6E9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA8730C21A715BF80028B6E9 /* GameScene.sks */; };
+		EA8730C51A715BF80028B6E9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8730C41A715BF80028B6E9 /* GameScene.swift */; };
+		EA8730C71A715BF80028B6E9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8730C61A715BF80028B6E9 /* GameViewController.swift */; };
+		EA8730CA1A715BF80028B6E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA8730C81A715BF80028B6E9 /* Main.storyboard */; };
+		EA8730CC1A715BF80028B6E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA8730CB1A715BF80028B6E9 /* Images.xcassets */; };
+		EA8730CF1A715BF80028B6E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA8730CD1A715BF80028B6E9 /* LaunchScreen.xib */; };
+		EA8730DB1A715BF80028B6E9 /* PandaAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8730DA1A715BF80028B6E9 /* PandaAppTests.swift */; };
+		EA8730E91A715CAC0028B6E9 /* jump.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA8730E51A715CAC0028B6E9 /* jump.atlas */; };
+		EA8730EA1A715CAC0028B6E9 /* jump_effect.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA8730E61A715CAC0028B6E9 /* jump_effect.atlas */; };
+		EA8730EB1A715CAC0028B6E9 /* roll.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA8730E71A715CAC0028B6E9 /* roll.atlas */; };
+		EA8730EC1A715CAC0028B6E9 /* run.atlas in Resources */ = {isa = PBXBuildFile; fileRef = EA8730E81A715CAC0028B6E9 /* run.atlas */; };
+		EA8730F21A715CF70028B6E9 /* apple.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA8730EE1A715CF70028B6E9 /* apple.mp3 */; };
+		EA8730F31A715CF70028B6E9 /* hit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA8730EF1A715CF70028B6E9 /* hit.mp3 */; };
+		EA8730F41A715CF70028B6E9 /* hit_platform.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA8730F01A715CF70028B6E9 /* hit_platform.mp3 */; };
+		EA8730F51A715CF70028B6E9 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EA8730F11A715CF70028B6E9 /* lose.mp3 */; };
+		EA8730F71A715DC00028B6E9 /* Panda.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8730F61A715DC00028B6E9 /* Panda.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA8730D51A715BF80028B6E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA8730B31A715BF80028B6E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA8730BA1A715BF80028B6E9;
+			remoteInfo = PandaApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA282B451A7675D8008527F5 /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		EA282B471A767763008527F5 /* PlatformFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformFactory.swift; sourceTree = "<group>"; };
+		EA282B4A1A7686CD008527F5 /* background_f0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_f0.png; sourceTree = "<group>"; };
+		EA282B4B1A7686CD008527F5 /* background_f1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_f1.png; sourceTree = "<group>"; };
+		EA282B4E1A7686EA008527F5 /* BackGround.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackGround.swift; sourceTree = "<group>"; };
+		EA282B501A768B76008527F5 /* BitMaskType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMaskType.swift; sourceTree = "<group>"; };
+		EA8730BB1A715BF80028B6E9 /* PandaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PandaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8730BF1A715BF80028B6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8730C01A715BF80028B6E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA8730C21A715BF80028B6E9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EA8730C41A715BF80028B6E9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EA8730C61A715BF80028B6E9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EA8730C91A715BF80028B6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA8730CB1A715BF80028B6E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA8730CE1A715BF80028B6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA8730D41A715BF80028B6E9 /* PandaAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA8730D91A715BF80028B6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA8730DA1A715BF80028B6E9 /* PandaAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaAppTests.swift; sourceTree = "<group>"; };
+		EA8730E51A715CAC0028B6E9 /* jump.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = jump.atlas; sourceTree = "<group>"; };
+		EA8730E61A715CAC0028B6E9 /* jump_effect.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = jump_effect.atlas; sourceTree = "<group>"; };
+		EA8730E71A715CAC0028B6E9 /* roll.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = roll.atlas; sourceTree = "<group>"; };
+		EA8730E81A715CAC0028B6E9 /* run.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = run.atlas; sourceTree = "<group>"; };
+		EA8730EE1A715CF70028B6E9 /* apple.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apple.mp3; sourceTree = "<group>"; };
+		EA8730EF1A715CF70028B6E9 /* hit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit.mp3; sourceTree = "<group>"; };
+		EA8730F01A715CF70028B6E9 /* hit_platform.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hit_platform.mp3; sourceTree = "<group>"; };
+		EA8730F11A715CF70028B6E9 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		EA8730F61A715DC00028B6E9 /* Panda.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panda.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA8730B81A715BF80028B6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8730D11A715BF80028B6E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA282B491A7686CD008527F5 /* background */ = {
+			isa = PBXGroup;
+			children = (
+				EA282B4A1A7686CD008527F5 /* background_f0.png */,
+				EA282B4B1A7686CD008527F5 /* background_f1.png */,
+			);
+			name = background;
+			path = "../../../../../code from cocoa/panda/panda/background";
+			sourceTree = "<group>";
+		};
+		EA8730B21A715BF80028B6E9 = {
+			isa = PBXGroup;
+			children = (
+				EA8730BD1A715BF80028B6E9 /* PandaApp */,
+				EA8730D71A715BF80028B6E9 /* PandaAppTests */,
+				EA8730BC1A715BF80028B6E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA8730BC1A715BF80028B6E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA8730BB1A715BF80028B6E9 /* PandaApp.app */,
+				EA8730D41A715BF80028B6E9 /* PandaAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA8730BD1A715BF80028B6E9 /* PandaApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA282B491A7686CD008527F5 /* background */,
+				EA8730ED1A715CF70028B6E9 /* sound */,
+				EA8730E41A715CAC0028B6E9 /* atlas */,
+				EA8730C01A715BF80028B6E9 /* AppDelegate.swift */,
+				EA8730C21A715BF80028B6E9 /* GameScene.sks */,
+				EA8730C41A715BF80028B6E9 /* GameScene.swift */,
+				EA8730C61A715BF80028B6E9 /* GameViewController.swift */,
+				EA8730C81A715BF80028B6E9 /* Main.storyboard */,
+				EA8730CB1A715BF80028B6E9 /* Images.xcassets */,
+				EA8730CD1A715BF80028B6E9 /* LaunchScreen.xib */,
+				EA8730BE1A715BF80028B6E9 /* Supporting Files */,
+				EA8730F61A715DC00028B6E9 /* Panda.swift */,
+				EA282B451A7675D8008527F5 /* Platform.swift */,
+				EA282B471A767763008527F5 /* PlatformFactory.swift */,
+				EA282B4E1A7686EA008527F5 /* BackGround.swift */,
+				EA282B501A768B76008527F5 /* BitMaskType.swift */,
+			);
+			path = PandaApp;
+			sourceTree = "<group>";
+		};
+		EA8730BE1A715BF80028B6E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8730BF1A715BF80028B6E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8730D71A715BF80028B6E9 /* PandaAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA8730DA1A715BF80028B6E9 /* PandaAppTests.swift */,
+				EA8730D81A715BF80028B6E9 /* Supporting Files */,
+			);
+			path = PandaAppTests;
+			sourceTree = "<group>";
+		};
+		EA8730D81A715BF80028B6E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA8730D91A715BF80028B6E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA8730E41A715CAC0028B6E9 /* atlas */ = {
+			isa = PBXGroup;
+			children = (
+				EA8730E51A715CAC0028B6E9 /* jump.atlas */,
+				EA8730E61A715CAC0028B6E9 /* jump_effect.atlas */,
+				EA8730E71A715CAC0028B6E9 /* roll.atlas */,
+				EA8730E81A715CAC0028B6E9 /* run.atlas */,
+			);
+			name = atlas;
+			path = "../../../../../code from cocoa/panda/panda/atlas";
+			sourceTree = "<group>";
+		};
+		EA8730ED1A715CF70028B6E9 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				EA8730EE1A715CF70028B6E9 /* apple.mp3 */,
+				EA8730EF1A715CF70028B6E9 /* hit.mp3 */,
+				EA8730F01A715CF70028B6E9 /* hit_platform.mp3 */,
+				EA8730F11A715CF70028B6E9 /* lose.mp3 */,
+			);
+			name = sound;
+			path = "../../../../../code from cocoa/panda/panda/sound";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA8730BA1A715BF80028B6E9 /* PandaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8730DE1A715BF80028B6E9 /* Build configuration list for PBXNativeTarget "PandaApp" */;
+			buildPhases = (
+				EA8730B71A715BF80028B6E9 /* Sources */,
+				EA8730B81A715BF80028B6E9 /* Frameworks */,
+				EA8730B91A715BF80028B6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PandaApp;
+			productName = PandaApp;
+			productReference = EA8730BB1A715BF80028B6E9 /* PandaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA8730D31A715BF80028B6E9 /* PandaAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA8730E11A715BF80028B6E9 /* Build configuration list for PBXNativeTarget "PandaAppTests" */;
+			buildPhases = (
+				EA8730D01A715BF80028B6E9 /* Sources */,
+				EA8730D11A715BF80028B6E9 /* Frameworks */,
+				EA8730D21A715BF80028B6E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA8730D61A715BF80028B6E9 /* PBXTargetDependency */,
+			);
+			name = PandaAppTests;
+			productName = PandaAppTests;
+			productReference = EA8730D41A715BF80028B6E9 /* PandaAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA8730B31A715BF80028B6E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tony;
+				TargetAttributes = {
+					EA8730BA1A715BF80028B6E9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					EA8730D31A715BF80028B6E9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EA8730BA1A715BF80028B6E9;
+					};
+				};
+			};
+			buildConfigurationList = EA8730B61A715BF80028B6E9 /* Build configuration list for PBXProject "PandaApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA8730B21A715BF80028B6E9;
+			productRefGroup = EA8730BC1A715BF80028B6E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA8730BA1A715BF80028B6E9 /* PandaApp */,
+				EA8730D31A715BF80028B6E9 /* PandaAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA8730B91A715BF80028B6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8730CF1A715BF80028B6E9 /* LaunchScreen.xib in Resources */,
+				EA8730EC1A715CAC0028B6E9 /* run.atlas in Resources */,
+				EA8730CC1A715BF80028B6E9 /* Images.xcassets in Resources */,
+				EA8730F41A715CF70028B6E9 /* hit_platform.mp3 in Resources */,
+				EA8730EA1A715CAC0028B6E9 /* jump_effect.atlas in Resources */,
+				EA8730F51A715CF70028B6E9 /* lose.mp3 in Resources */,
+				EA8730F31A715CF70028B6E9 /* hit.mp3 in Resources */,
+				EA282B4C1A7686CD008527F5 /* background_f0.png in Resources */,
+				EA282B4D1A7686CD008527F5 /* background_f1.png in Resources */,
+				EA8730F21A715CF70028B6E9 /* apple.mp3 in Resources */,
+				EA8730C31A715BF80028B6E9 /* GameScene.sks in Resources */,
+				EA8730CA1A715BF80028B6E9 /* Main.storyboard in Resources */,
+				EA8730EB1A715CAC0028B6E9 /* roll.atlas in Resources */,
+				EA8730E91A715CAC0028B6E9 /* jump.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8730D21A715BF80028B6E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA8730B71A715BF80028B6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA282B461A7675D8008527F5 /* Platform.swift in Sources */,
+				EA282B511A768B76008527F5 /* BitMaskType.swift in Sources */,
+				EA8730C51A715BF80028B6E9 /* GameScene.swift in Sources */,
+				EA8730C71A715BF80028B6E9 /* GameViewController.swift in Sources */,
+				EA282B481A767763008527F5 /* PlatformFactory.swift in Sources */,
+				EA282B4F1A7686EA008527F5 /* BackGround.swift in Sources */,
+				EA8730F71A715DC00028B6E9 /* Panda.swift in Sources */,
+				EA8730C11A715BF80028B6E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA8730D01A715BF80028B6E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA8730DB1A715BF80028B6E9 /* PandaAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA8730D61A715BF80028B6E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA8730BA1A715BF80028B6E9 /* PandaApp */;
+			targetProxy = EA8730D51A715BF80028B6E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA8730C81A715BF80028B6E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8730C91A715BF80028B6E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA8730CD1A715BF80028B6E9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA8730CE1A715BF80028B6E9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA8730DC1A715BF80028B6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA8730DD1A715BF80028B6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA8730DF1A715BF80028B6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PandaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA8730E01A715BF80028B6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PandaApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA8730E21A715BF80028B6E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PandaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaApp.app/PandaApp";
+			};
+			name = Debug;
+		};
+		EA8730E31A715BF80028B6E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PandaAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PandaApp.app/PandaApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA8730B61A715BF80028B6E9 /* Build configuration list for PBXProject "PandaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8730DC1A715BF80028B6E9 /* Debug */,
+				EA8730DD1A715BF80028B6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8730DE1A715BF80028B6E9 /* Build configuration list for PBXNativeTarget "PandaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8730DF1A715BF80028B6E9 /* Debug */,
+				EA8730E01A715BF80028B6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA8730E11A715BF80028B6E9 /* Build configuration list for PBXNativeTarget "PandaAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA8730E21A715BF80028B6E9 /* Debug */,
+				EA8730E31A715BF80028B6E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA8730B31A715BF80028B6E9 /* Project object */;
+}
